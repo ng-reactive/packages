@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "async-input": [
+        "dist/async-input"
+      ],
+      "async-input/*": [
+        "dist/async-input/*"
+      ]
+    }
   }
 }
